@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container{
+    min-height: 90%;
+    min-width: 40%;
+    background-color: #cb4444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    font-size: 70px;
+    font-weight: bold;
+    color: #FFF3B6;
+}
+
+.innerdiv{
+    width: 60%;
+    height: 80%;
+    background-color: #cb4444;
+    background-image: url('Vector.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;  
+    
+}
+
+.chotadiv{
+    border: 1px solid #FFFFFF;
+    padding: 30px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 145px;
+    width: 276px;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    top: 650px;
+    right: 600px;
+  }
